@@ -1,0 +1,110 @@
+.kodagu-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95vw;
+        height: 700px;
+        
+        .desc-container {
+            max-width: 40vw;
+
+            h1 {
+                font-size: 4rem;
+                text-shadow: 2px 2px 4px gray;
+            }
+
+            p {
+                font-size: 1.4rem;
+                text-align: justify;
+                background-color: white;
+                padding: 20px;
+                border-radius: 20px;
+                box-shadow: 2px 2px 4px gray;
+            }
+    }
+
+        img {
+            width: 40vw;
+        }
+    }
+
+    .block1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95vw;
+        height: 700px;
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 25vw;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 20px;
+            justify-content: center;
+            box-shadow: 2px 2px 4px gray;
+
+            img {
+                width: 300px;
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    .block2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: 700px; 
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+
+    .block3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: 700px;
+        background-color: azure;        
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+        height: 300px;   
+        background-color: black;
+        
+        h2 {
+            color: white;  
+        }
+    }
+}
